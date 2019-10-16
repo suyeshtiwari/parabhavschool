@@ -1,0 +1,33 @@
+.contactUs h1, .contactUs h2  {
+    text-align: left;
+    padding-left: 10px;
+}
+.contactUs p {
+    text-align: justify;
+    padding-left: 10px;
+}
+.contactCard {
+    width: 50%;
+    border: 1px solid #d2d2d2;
+    margin: 10px;
+    box-shadow: 1px 1px 5px #f2f2f2;
+    font-size: 18px;
+}
+.contactCard ul {
+    list-style-type: none;
+}
+.contactCard li {
+    margin: 10px;
+    text-align: left;
+}
+@media screen and (max-width :767px) {
+    .contactCard {
+        width: 99%;
+        border: 1px solid #d2d2d2;
+        /* margin: 10px; */
+        box-shadow: 1px 1px 5px #f2f2f2;
+        font-size: 18px;
+        box-sizing: border-box;
+        margin: auto;
+    }
+}

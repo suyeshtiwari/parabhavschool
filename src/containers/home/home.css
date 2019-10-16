@@ -1,0 +1,34 @@
+.cWrapper {
+    box-shadow: 1px 1px 5px #c2c2c2;
+    height: 250px;
+}
+.cWrapper img {
+    height: 249px;
+    width: 100%;
+}
+.aboutContent {
+    width: 47%;
+    float: left;
+    text-align: justify;
+    margin: 10px;
+}
+.aboutContent h2 {
+    color: #e91e63;
+    text-align: justify;
+    text-align: center;
+}
+.noticeWrapper {
+    width: 47%;
+    float: right;
+}
+@media screen and (max-width :767px) { 
+    .aboutContent {
+        width: 97%;
+        float: none;
+        margin: 1.5%;
+    }
+    .noticeWrapper {
+        width: 100%;
+        float: none;
+    }
+}

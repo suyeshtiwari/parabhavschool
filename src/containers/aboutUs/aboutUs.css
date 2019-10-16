@@ -1,0 +1,9 @@
+.aboutUsHeader h1, .aboutUsHeader h2  {
+    text-align: left;
+    padding-left: 10px;
+}
+.aboutUsHeader p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
